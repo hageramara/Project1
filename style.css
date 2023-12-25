@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+    .header {
+
+        background-image: url(img/photo_2023-11-27_12-27-04.jpg);
+        height: 100vh;
+        color: white;
+        background-size: cover cover;
+        overflow: hidden;
+    }
+
+    .header-content {
+        text-align: center;
+        margin-top: 250px;
+        font-family: "Source Sans Pro", sans-serif;
+    }
+
+    .header-content span {
+        font-size: 24px;
+
+    }
+
+    .header-content h1 {
+        font-size: 70px;
+        color: purple;
+        margin: 15px 0px;
+    }
+
+    .header-content p {
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    .overlay {
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+
+    }
+
+    .navbar {
+        position: fixed;
+        right: 0%;
+        left: 0%;
+        padding-top:15px;
+        z-index: 9;
+    }
+
+    .logo {
+
+        float: left;
+
+    }
+
+    .links {
+
+        float: right;
+    }
+
+    .navbar li {
+        float: left;
+
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .links ul {
+        list-style: none;
+
+    }
+
+    .navbar a {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .navbar ul a {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 300px;
+        color: white;
+
+    }
+
+    .logo a {
+        font-size: 24px;
+    }
+
+    .links a {
+        text-decoration: none;
+    }
+
+    .clr {
+        clear: both;
+    }
+
+
+    h2 {
+        font-family: Roboto, sans-serif;
+        color: purple;
+        position: relative;
+        padding-bottom: 10px; 
+        font-size: 30px;
+        padding-left: 50px;
+     
+
+    }
+
+
+    /* page 2 */
+
+
+    .icon{
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 100px 50px;
+        margin-bottom: 50px;
+    }
+    .icon-txt2{
+        margin: auto;
+        width: 80%;
+       
+    }
+    .icon-text
+    {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .icon-txt1
+    {
+        width: 25%;
+        float: right;
+        padding: 20px 20px;
+    }
+    .icon-txt1 img{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+    .icon-txt1 p{
+        margin: auto;
+        font-family:"Source Sans Pro", sans-serif ;
+        Font-size: 16px;
+        Font-weight: 400;
+        Line-height: 25px;
+    }
+    .icon-txt1 h3{
+        font-family:"Source Sans Pro", sans-serif ;
+        Font-size: 24px;
+        Font-weight: 600;
+        Line-height: 26.4px;
+        margin-bottom: 15px;
+
+    }
+    .icon-text2 h2{
+        text-align: center;
+        margin: auto;
+        color: rgb(51, 51, 51);
+        Font-size: 40px;
+        Font-weight: 800;
+        padding: 20px 0px;
+       
+    }
+    .icon-txt1 h4 {
+        margin: 10px 0;
+        color:purple;
+        font-family:"Source Sans Pro", sans-serif ;
+    }
+    .icon-txt1 li 
+    {
+        margin-left: 20px;
+        font-family:"Source Sans Pro", sans-serif ;
+    }
+
+    .brdr1
+    {
+        width: 120px;
+        height: 1PX;
+        background-color:purple;
+        margin: 5px auto;
+    }
+    .brdr2
+    {
+        width: 250px;
+        height: 1PX;
+        background-color:purple;
+        margin: 5px auto;
+
+    }
+
+
+
+/* contact */
+
+
+.container2{
+    
+    width: 50%;
+    margin: auto;
+}
+.label
+{
+    margin: 40px 0px;
+}
+.name{
+    width: 49%;
+    float: left;
+}
+
+.name input {
+    width: 100%;
+}
+
+.email{
+    width: 49%;
+    float: right;
+}
+
+.email input {
+    width: 100%;
+}
+
+.name,
+.email,
+.subject,
+.textarea,
+.btn-nine {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.name input,
+.email input,
+.subject input {
+    height: 40px;
+}
+
+.subject input,
+.textarea textarea {
+    width: 100%;
+}
+
+input,
+textarea {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+}
+
+.btn5 button {
+    background-color:purple;
+    border: solid rgb(5, 5, 5);
+    padding: 0 20px;
+    height: 40px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid transparent;
+   
+}
+
+.footer {
+    background-color:black;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 80px;
+}
+
+
+
+.footer-icons i {
+   
+    padding:20px;
+    color: #f1f1f1;
+
+}
+.footer p {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.footer span {
+    color: purple;
+}
+
+.footer i:hover {
+    color: purple;
+} 
+
+
+.paragh{
+    padding-top: 25px;
+    
+}
+
+.paragh p{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
